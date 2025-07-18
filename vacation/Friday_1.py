@@ -10,7 +10,7 @@ def even_odd():
             print("\n이 숫자는 짝수입니다.")
         else:
             print("\n이 숫자는 홀수입니다.")
-    except TypeError:
+    except ValueError:
         print("\n올바른 형태로 입력해주세요.")
 
 def times_table():
@@ -30,9 +30,9 @@ def max_list(list_):
     """리스트에서 최댓값을 찾아서 순서와 함께 출력"""
     try:
         find_value = max(list_)
-        find_index = [i for i, x in enumerate(list_) if x == max(list_)]
+        find_index = [i for i, x in enumerate(list_) if x == max(list_)] #list_.index(max(list_))
         print(f"\n이 리스트 요소의 최댓값은 {find_value}이고, 그 값의 순서는 {find_index[0]}입니다.")
-    except TypeError:
+    except ValueError:
         print("\nlist를 인자로 넣어주세요")
 
 def calculator():
@@ -70,6 +70,7 @@ def make_lotto_numbers():
     """로또 번호 생성기"""
     numbers = list(range(1, 46))
     lotto_numbers = []
+    #random.sample(range(1, 46), 6) 한 줄이면 중복 없는 6개를 바로 얻음
     for x in range(6):
         lotto_numbers.append(random.choice(numbers))
     lotto_numbers = set(lotto_numbers)
@@ -84,6 +85,9 @@ def make_lotto_numbers():
 
 def word_counter():
     """각각의 단어가 몇번 반복 되는지 딕셔너리 형태로 출력"""
+    #파이썬 3.7+에서는 collections.Counter를 활용하면 한 줄:
+    #from collections import Counter
+    #counts = Counter(word.split())
     word = input("\n각 단어의 개수를 세고자 하는 문자열을 입력해주세요: ")
     word_split = word.split()
     count = {}
@@ -94,7 +98,7 @@ def word_counter():
             count[x] += 1
     print(count)
 
-def Celsius_Fahrenheit():
+def celsius_fahrenheit():
     """섭씨 온도와 화씨 온도간의 변환"""
     try:
         degree = float(input("\n변환시키고자 하는 온도값을 입력해주세요 ex) 3.5: "))
@@ -106,7 +110,7 @@ def Celsius_Fahrenheit():
             print(f"\n화씨 {degree}°F는 섭씨 {(degree-32)*5/9:0.4f}°C 입니다.")
         else:
             print("\n올바른 옵션 번호를 입력해주세요.")
-    except TypeError:
+    except ValueError:
         print("\n숫자를 입력해주세요.")
 
 def memo():
