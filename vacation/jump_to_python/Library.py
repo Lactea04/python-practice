@@ -5,7 +5,7 @@ import glob #파일 이름 찾기
 import tempfile
 
 
-path = "C:\\Users\\kimtg\\OneDrive\\Desktop\\python"
+path = "/"
 #f = os.popen("dir") #시스템 명렁어를 실행한 결괏값을 읽기 모드 형태의 파일 객체로 돌려줌.
 
 

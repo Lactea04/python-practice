@@ -1,10 +1,3 @@
-#Me = {"last_name" : "Taegyun", "first_name":"Kim", "age":"22", "city":"Seong-nam"}
-
-#for key, value in Me.items():
-#    print(f"\n Key: {key.title()}")
-#    print(f"\n Value: {value.title()}")
-
-
 
 #alien
 import random
