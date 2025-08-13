@@ -1,4 +1,4 @@
-from car import Car
+from vacation.dummy.car import Car
 
 
 class IceCreamStand():

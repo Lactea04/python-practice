@@ -18,7 +18,7 @@ with (open("kyong_gi_gwank_zu_weather_data.csv", "r") as f): #city_name, yyyy-mm
     #work_program
     while True:
         #prompt
-        print("\nWhat is the date you want to check the degree in Kyong-Gi-Do-Gwang-Zu?"
+        print("\nWhat is the date you want to check the temperature in Gwangju, Gyeonggi-do?"
               "\nThe range is from 2023-08-30 00:00 to 2024-08-29 23:00.")
         sleep(1.5)
         choose_date = input("\nPlease write in the form yyyy-mm-dd tt:tt:")
@@ -47,7 +47,7 @@ with (open("kyong_gi_gwank_zu_weather_data.csv", "r") as f): #city_name, yyyy-mm
             if len(choose_date) == 16:
                 if choose_date in datum:
                     datum = datum.split(',')
-                    print(f"\nThe degree in Kyong-Gi-Do-Gwang-Zu at {choose_date} is {datum[2]}°C")
+                    print(f"\nThe degree in Gwangju, Gyeonggi-do at {choose_date} is {datum[2]}°C")
                 else:
                     continue
             else:
