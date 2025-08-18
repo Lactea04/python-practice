@@ -40,14 +40,14 @@ for pressure_datum in pressure_data[1:]:
 plt.style.use('seaborn-v0_8-ticks')
 fig, ax = plt.subplots(figsize=(10,6))
 
-ax.plot(x_values, y_values, color='blue', linewidth=2)
+ax.plot(x_values, y_values, color='red', linewidth=2)
 ax.set_title(f"Temperature Data of Gwangju, Gyeonggi-do at {choose_data}", fontsize=10)
 ax.set_xlabel("date-time", fontsize=10)
 ax.set_ylabel("Temperature", fontsize=10)
 ax.tick_params(labelsize=7)
 
 ax2 = ax.twinx()
-ax2.plot(x1_values, y1_values, color='red', linewidth=2)
+ax2.plot(x1_values, y1_values, color='blue', linewidth=2)
 ax2.set_ylabel("Atmosphere_Pressure", fontsize=10)
 
 
