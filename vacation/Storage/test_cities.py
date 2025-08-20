@@ -1,4 +1,4 @@
-from vacation.dummy.city_functions import city_country_name
+from vacation.Storage.city_functions import city_country_name
 
 def test_city_country():
     """Santiago, Chile 같은 도시와 나라의 이름에 대한 테스트"""
