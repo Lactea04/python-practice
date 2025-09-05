@@ -36,7 +36,7 @@ show_average(progression_data) #21%
 
 #visualization
 plt.style.use("seaborn-v0_8-ticks")
-fig, ax = plt.subplots()
+fig, ax = plt.subplots(figsize=(10,6))
 np.random.seed(50)
 colors = [np.random.rand(3,) for _ in dates]
 fig.autofmt_xdate()
