@@ -1,0 +1,12 @@
+[
+    {
+        "name": "Taegyun",
+        "phone_number": "010-1234-5678",
+        "email": "abc@email.com"
+    },
+    {
+        "name": "David",
+        "phone_number": "010-2322-1323",
+        "email": "David@gmail.com"
+    }
+]
