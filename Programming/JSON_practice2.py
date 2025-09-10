@@ -1,9 +1,3 @@
-#🧠 심화 과제 (선택 사항)
-
-#여러 명의 연락처를 저장할 수 있도록 리스트 구조 사용하기
-#이름을 기준으로 특정 연락처 검색하기
-#연락처를 삭제하거나 수정하는 기능 추가하기
-
 from contact_class import Contact
 from pathlib import Path
 
