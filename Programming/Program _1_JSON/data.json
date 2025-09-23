@@ -1,0 +1,14 @@
+{'items':
+  [
+    {'index': 1, 'age': 35, 'name': 'Allison', 'email': 'alan@branch.st', 'private': {'married': False, 'weight': 35}},
+    {'index': 2, 'age': 12, 'name': 'Kyle', 'email': 'sidney@riddle.it', 'private': {'married': True, 'weight': 56}},
+    {'index': 3, 'age': 2, 'name': 'Patrick', 'email': 'joseph@klein.bt', 'private': {'married': True, 'weight': 36}},
+    {'index': 4, 'age': 9, 'name': 'Miriam', 'email': 'justin@justice.ma', 'private': {'married': False, 'weight': 54}},
+    {'index': 5, 'age': 19, 'name': 'Carolyn', 'email': 'peter@blum.edu', 'private': {'married': False, 'weight': 33}},
+    {'index': 6, 'age': 35, 'name': 'Geoffrey', 'email': 'peggy@mangum.bv', 'private': {'married': False, 'weight': 53}},
+    {'index': 7, 'age': 30, 'name': 'Virginia', 'email': 'willie@palmer.gi', 'private': {'married': False, 'weight': 31}},
+    {'index': 8, 'age': 15, 'name': 'Katherine', 'email': 'nina@callahan.cv', 'private': {'married': False, 'weight': 50}},
+    {'index': 9, 'age': 9, 'name': 'Maureen', 'email': 'dennis@lam.hr', 'private': {'married': True, 'weight': 50}},
+    {'index': 10, 'age': 0, 'name': 'Alex', 'email': 'bernard@stephens.gf', 'private': {'married': False, 'weight': 41}}
+  ]
+}

@@ -6,5 +6,3 @@ url = "http://swopenapi.seoul.go.kr/api/subway/sample/json/realtimeStationArriva
 contents = requests.get(url).text
 data = json.loads(contents)
 
-for x in data:
-    print(x)
