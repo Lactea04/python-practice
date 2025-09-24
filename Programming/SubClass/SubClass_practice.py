@@ -21,6 +21,7 @@ class Dog(Animal):
         print(f"The {self.name} brings a ball!")
 
 class Cat(Animal):
+    """This sub_class expresses a cat"""
     def make_sound(self):
         print("meow, meow!")
 
